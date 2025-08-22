@@ -1,7 +1,26 @@
-langchain==0.3.0
-langchain-openai
-langchain-community
-chromadb
-tiktoken
-pypdf
-python-dotenv
+# Core LangChain packages
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.0
+langchain-groq==0.0.3
+langchain-huggingface==0.0.1
+
+# Document processing
+pypdf==3.17.4
+chromadb==0.4.22
+
+# Embeddings and ML
+sentence-transformers==2.2.2
+torch==2.1.2
+transformers==4.36.2
+
+# Additional retrievers
+rank-bm25==0.2.2
+
+# Environment and utilities
+python-dotenv==1.0.0
+langsmith==0.0.77
+
+# Optional: For better performance
+faiss-cpu==1.7.4
+numpy==1.24.3
